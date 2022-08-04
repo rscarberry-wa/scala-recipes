@@ -6,3 +6,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-recipes"
   )
+
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.9" % "test"
+libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.15.4" % "test"
