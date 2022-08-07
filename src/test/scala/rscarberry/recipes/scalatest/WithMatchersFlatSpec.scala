@@ -23,7 +23,7 @@ class WithMatchersFlatSpec extends AnyFlatSpec with Matchers {
   it should "throw a NoSuchElementException if dequeue is called on an empty queue" in {
     val emptyQueue = mutable.Queue.empty
     a [NoSuchElementException] should be thrownBy {
-      emptyQueue.dequeue()
+         emptyQueue.dequeue()
     }
   }
   
